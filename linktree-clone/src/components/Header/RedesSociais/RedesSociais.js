@@ -4,7 +4,8 @@ const RedesSociais = () => {
 
     const ListaSociais = [
         {id: 1, urlNome: 'Instagram' , url: 'https://www.instagram.com/rodrigueslucas062/'} ,
-        {id: 2, urlNome: 'LinkedIn' , url: 'https://www.instagram.com/rodrigueslucas062/'} ,        
+        {id: 2, urlNome: 'LinkedIn' , url: 'https://www.linkedin.com/in/rodrigueslucasdev/'} ,
+        {id: 2, urlNome: 'Github' , url: 'https://github.com/rodrigueslucas062'} ,        
     ]
 
     const LinksRedes = ListaSociais.map((props) =>
