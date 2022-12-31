@@ -1,9 +1,11 @@
-$cols: 10;
-$rows: 6;
-$cells: $cols * $rows;
-$bgcolor: #6223D2;
-$shapeHeight: 230;
-$shapeWidth: 200;
+  $cols: 10;
+  $rows: 6;
+  $cells: $cols * $rows;
+  $bgcolor: #6223D2;
+  $shapeHeight: 230;
+  $shapeWidth: 200;
+  $cor-secundaria: #acacac;
+  $cor-terciaria: #fff;
 
 body{
   margin: 0; 
@@ -19,14 +21,12 @@ body{
   width: 100vw;
   height: 100vh;
   position: absolute; 
-  z-index: 2;
   background: radial-gradient(circle, transparent 0%, transparentize($bgcolor, .15) 100%);
 }
 
 //Container to provide grid layout for all items
 .container {
   display: grid;
-
   grid-template-columns: repeat($cols, $shapeWidth+px);
   grid-template-rows: repeat($rows, $shapeHeight+px);
   transform: translate(-3%, -4%); // Starting point bleeds off edge
