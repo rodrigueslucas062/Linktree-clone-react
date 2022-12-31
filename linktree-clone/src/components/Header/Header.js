@@ -4,7 +4,7 @@ const Header = () =>{
     return(
         <div className="perfil_conteudo">
             <div className = "perfil_imagem"></div>
-            <h3>Clone Linktree</h3>
+            <h3>@rodrigueslucas062</h3>
             <p>Bem Vindo!</p>
         </div>
     )
