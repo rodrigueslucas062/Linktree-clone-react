@@ -1,9 +1,11 @@
-$cor-terciaria: #fff;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Poppins:wght@300;400;500;700&display=swap');
 
 .perfil_conteudo{
     margin: 35px;
     text-align: center;
-    color: var(--cor-terciaria);
+    font-family: 'DMsans', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .perfil_imagem {

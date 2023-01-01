@@ -1,27 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Poppins:wght@300;400;500;700&display=swap');
+
 $bgcolor: #6223D2;
-$cor-secundaria: #acacac;
+$cor-secundaria: #FFFFFF;
 $cor-terciaria: #fff;
 
 a{
     text-decoration: none;
-    color: $bgcolor;
+    color: #888888;
     background-color: $cor-secundaria;
+    position: relative;
     display: flex;
     justify-content: center;
     text-align: center;
     border-radius: 12px;
-    font-size: 1.2em;
+    font-size: 20px;
     padding: 15px;
     margin: 15px;
-    transition: 0.3s ease-in;
 }
 
 a:hover{
     transform: scale(1.03);
+    transition: 0.1s ease-in-out;
 }
 
 .conteudo_links{
+    width: 664;
+    height: 56;
     max-width: 800px;
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DMsans', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-color: #888888 5px;
 }

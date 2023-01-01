@@ -10,7 +10,9 @@ const RedesSociais = () => {
 
     const LinksRedes = ListaSociais.map((props) =>
         <div key = {props.id} className = 'conteudo_links'>
-            <a href = {props.url}>{props.urlNome}</a>
+            <span>
+                <a href = {props.url}>{props.urlNome}</a>
+            </span>
         </div>
     )
 
